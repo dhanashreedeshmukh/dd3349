@@ -28,6 +28,7 @@
       "react-app/jest"
     ]
   },
+  "proxy": "http://dhanashreedeshmukh.github.io/audio-tracks/tracks.json",
   "jest": {
     "testEnvironment": "jest-environment-jsdom",
     "transformIgnorePatterns": [
