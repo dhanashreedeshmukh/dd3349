@@ -12,7 +12,7 @@ const Playlist = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
-    fetch('$/data/tracks.json')
+    fetch('http://localhost:3001/tracks')
       .then(response => response.json())
       .then(data => setPlaylistData(data))
       .catch(error => console.error('Error fetching data:', error));
